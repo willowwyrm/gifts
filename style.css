@@ -1,12 +1,12 @@
 * {
-	padding: 0px;
-	margin:  0px;
+	padding: 0;
+	margin:  0;
 	border-collapse: collapse;
 }
 
 img, table, tr, td {
-	border: 0px;
-	border-spacing: 0px;
+	border: 0;
+	border-spacing: 0;
 }
 
 table, tr, td {
@@ -20,8 +20,8 @@ img, input[type="image"] {
 body {
 	background: white;     /* Стандартный цвет фона   */
 	color: #434645;          /* Стандартный цвет текста */
-	min-width: 550px;      /* 2 x ширина левой колонки + ширина правой колонки */
-	font-family: "Arial Black", "Helvetica CY", "Nimbus Sans L", sans-serif;
+	min-width: 1200px;      /* 2 x ширина левой колонки + ширина правой колонки */
+	font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
 	margin: 0 7px 0 0
 }
 
@@ -150,7 +150,7 @@ table.goods tr:nth-child(even) {
 	border: none;
 	text-align: center;
 	width: 32px;
-	height: 20px;
+	height: 22px;
 	font-size: 11px;
 	margin: 0 0 0 2px;
 	cursor: pointer;
@@ -197,7 +197,7 @@ table.goods tr:nth-child(even) {
 		-moz-box-sizing: border-box;
 		/*display: inline-block;*/
 		background: #050505;
-		background: linear-gradient(to right, #050505 0%, #6e6e6e 50%, #6e6e6e 50%, #050505 100%); 
+		background: linear-gradient(to right, #050505 0%, #6e6e6e 50%, #6e6e6e 50%, #050505 100%);
 		height: 32px;
 		margin: 5px 0 0 0;
 		clear: right;
@@ -225,7 +225,7 @@ table.goods tr:nth-child(even) {
 		-moz-box-sizing: border-box;
 		color: #434645 !important;
 		background: #050505;
-		background: linear-gradient(to bottom, #f4f2f7, #a8aeba); 
+		background: linear-gradient(to bottom, #f4f2f7, #a8aeba);
 		height: 32px;
 	}
 
@@ -312,7 +312,7 @@ table.goods tr:nth-child(even) {
 
 	.recommend-text {
 		text-align: justify;
-		padding: 11px 10px 0px 10px;
+		padding: 11px 10px 0 10px;
 		font-size: 12px;
 	}
 
@@ -337,7 +337,7 @@ table.goods tr:nth-child(even) {
 	/*Правая колонка*/
 
 	.search-form {
-		margin: 20px 0px 30px 5px;
+		margin: 5px 0 30px 5px;
 		width: 265px;
 	}
 
@@ -346,7 +346,7 @@ table.goods tr:nth-child(even) {
 		-moz-box-sizing: border-box;
 		width: 188px;
 		height: 23px;
-		padding: 5px 0px 5px 13px;
+		padding: 5px 0 5px 13px;
 		border: 1px solid gray;
 		border-radius: 5px;
 	}
@@ -371,9 +371,9 @@ table.goods tr:nth-child(even) {
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		width: 212px;
-		margin: 0 28px 0px 25px;
+		margin: 0 28px 0 25px;
 	}
-	
+
 	.compare-menu img {
 		display: block;
 		margin: 10px auto;
@@ -383,7 +383,7 @@ table.goods tr:nth-child(even) {
 		box-sizing: border-box;
 		-moz-box-sizing: border-box;
 		width: 212px;
-		margin: 0 35px 0px 25px;
+		margin: 0 35px 0 25px;
 	}
 	.article-text {
 		text-align: justify;
@@ -416,7 +416,7 @@ table.goods tr:nth-child(even) {
 
 	.chat {
 		background: #050505;
-		background: linear-gradient(to right, #050505 0%, #6e6e6e 50%, #6e6e6e 50%, #050505 100%); 
+		background: linear-gradient(to right, #050505 0%, #6e6e6e 50%, #6e6e6e 50%, #050505 100%);
 		display: inline-block;
 		position: fixed;
 		z-index: 100;
@@ -432,7 +432,7 @@ table.goods tr:nth-child(even) {
 
 	.chat:hover {
 		background: #6e6e6e;
-		background: linear-gradient(to right, #6e6e6e 0%, #050505 50%, #050505 50%, #6e6e6e 100%); 
+		background: linear-gradient(to right, #6e6e6e 0%, #050505 50%, #050505 50%, #6e6e6e 100%);
 	}
 
 	.connect {
@@ -441,7 +441,7 @@ table.goods tr:nth-child(even) {
 		display: inline-block;
 		position: fixed;
 		z-index: 100;
-		color: black;
+		color: white;
 		bottom: 0;
 		right: 250px;
 		height: 28px;
@@ -449,6 +449,11 @@ table.goods tr:nth-child(even) {
 		font-size: 13px;
 		text-align: center;
 		line-height: 2;
+	}
+
+	.connect:hover {
+		background: #b8e6ff;
+		background: linear-gradient(to top, #00ceff, #b8e6ff);
 	}
 
 	.help-phone {
@@ -480,8 +485,8 @@ table.goods tr:nth-child(even) {
 		display: inline-block;
 		color: #434645;
 		font-weight: bold;
-		width: 23%;
-		padding: 6px 30px;
+		width: 25%;
+		padding: 6px 0;
 		font-size: 14px;
 		vertical-align: top;
 		white-space: nowrap !important;
@@ -495,7 +500,7 @@ table.goods tr:nth-child(even) {
 		-moz-box-sizing: border-box;
 		color: white !important;
 		background: #050505;
-		background: linear-gradient(to right, #050505 0%, #6e6e6e 50%, #6e6e6e 50%, #050505 100%); 
+		background: linear-gradient(to right, #050505 0%, #6e6e6e 50%, #6e6e6e 50%, #050505 100%);
 		height: 32px;
 	}
 
@@ -523,7 +528,7 @@ table.goods tr:nth-child(even) {
 		text-align: center;
 	}
 
-	.add-to-basket {
+	.btn-normal {
 		background: #e1e1e3;
 		background: linear-gradient(to bottom, #e1e1e3 0%, #ebedf1 25%, #e1e3e7 50%, #bbbfc9 75%, #a9acb9 100%);
 		border-radius: 7px;
@@ -535,7 +540,7 @@ table.goods tr:nth-child(even) {
 		margin: 5px auto;
 	}
 
-	.add-to-basket:hover {
+	.btn-normal:hover {
 		background: #a9acb9;
 		background: linear-gradient(to bottom, #a9acb9 0%, #bbbfc9 25%, #e1e3e7 50%, #ebedf1 75%, #e1e1e3 100%);
 	}
@@ -567,14 +572,14 @@ table.goods tr:nth-child(even) {
 .page-nav-left {
 	font-size: 12px;
 	display: inline-block;
-	margin: 20px 0 0 20px;
+	margin: 5px 0 0 20px;
 }
 
 .page-view {
 	float: right;
 	display: inline-block;
 	font-size: 12px;
-	margin: 20px 40px 0 0
+	margin: 5px 40px 0 0
 }
 
 .change-viewmode {
@@ -621,7 +626,7 @@ table.goods tr:nth-child(even) {
 	border: none;
 	text-align: center;
 	width: 40px;
-	height: 20px;
+	height: 22px;
 	font-size: 11px;
 	margin: 0 0 0 2px;
 	cursor: pointer;
@@ -653,7 +658,7 @@ table.goods tr:nth-child(even) {
 		display: inline-block;
 		height: 270px;
 		text-align: center;
-		padding: 10px 0px;
+		padding: 10px 0;
 		margin: 6px 2px;
 		vertical-align: top;
 	}
@@ -670,20 +675,21 @@ table.goods tr:nth-child(even) {
 		text-align: left;
 	}
 
-	.header-tr td {
+	.contacts-header {
 		font-size: 15px;
 		line-height: 2;
 	}
 
-	.content-td {
+	.contacts-td1 {
 		font-size: 13px;
 		line-height: 2;
+		width: 40%;
 	}
 
-	.cont-table {
-		font-size: 12px;
-		margin: 0px 0 15px 20px;
-		width: 470px;
+	.contacts-td2 {
+		font-size: 13px;
+		line-height: 2;
+		width: 60%;
 	}
 
 	.cont-input {
@@ -772,8 +778,8 @@ table.goods tr:nth-child(even) {
 	display: inline-block;
 	color: #434645;
 	font-weight: bold;
-	width: 19%;
-	padding: 6px;
+	width: 20%;
+	padding: 6px 0;
 	font-size: 14px;
 	vertical-align: top;
 	white-space: nowrap !important;
@@ -789,7 +795,7 @@ table.goods tr:nth-child(even) {
 	font-size: 13px;
 }
 
-.buy-cheaper {
+.btn-inverted {
 	background: #e1e1e3;
 	background: linear-gradient(to bottom, #575755 0%, #2a2a2a 50%, #050505 50%, #050505 100%);
 	border-radius: 7px;
@@ -802,7 +808,7 @@ table.goods tr:nth-child(even) {
 	margin: 5px auto;
 }
 
-.buy-cheaper:hover {
+.btn-inverted:hover {
 	background: #e1e1e3;
 	background: linear-gradient(to bottom, #050505 0%, #050505 50%, #2a2a2a 50%, #575755 100%);
 }
@@ -931,13 +937,13 @@ table.goods tr:nth-child(even) {
 .basket-table {
 	width: 100%;
 	text-align: center;
-	margin: 0 0px 15px 0px;
+	margin: 0 0 15px 0;
 }
 
 
 .basket-table-header {
 	background: #050505;
-	background: linear-gradient(to right, #050505 0%, #6e6e6e 50%, #6e6e6e 50%, #050505 100%); 
+	background: linear-gradient(to right, #050505 0%, #6e6e6e 50%, #6e6e6e 50%, #050505 100%);
 }
 
 .basket-table-header td {
@@ -995,8 +1001,8 @@ table.goods tr:nth-child(even) {
 }
 
 .basket-add-table td {
-	width: 30%;
-	padding: 0 20% 0 0;
+	width: 40%;
+	padding: 0 10% 0 0;
 }
 
 
@@ -1041,7 +1047,7 @@ table.goods tr:nth-child(even) {
 
 .form-order-buttons {
 	text-align: left;
-	margin: 0px 0 0 30px;
+	margin: 0 0 0 30px;
 }
 
 .form-order-buttons button {
