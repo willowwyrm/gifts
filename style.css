@@ -1144,3 +1144,55 @@ table.goods tr:nth-child(even) {
 	width: 3em;
 	text-align: center;
 	}
+
+	/*Каталог-а*/
+	.goods-block-horizontal {
+		display: block;
+		border: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	min-height: 200px;
+	margin: 6px 2px;
+	padding: 10px;
+	vertical-align: top;
+	}
+
+	.goods-block-horizontal p {
+	font-size: 13px;
+	line-height: 1.8;
+	text-align: center;
+	}
+
+
+
+.goods-block-horizontal img {
+	display: block;
+	float: left;
+	margin: 7px auto;
+	}
+
+	.goodsdescr-block{
+		margin: 30px 0 0 0;
+		display: inline-block;
+		line-height: 2;
+		font-size: 13px;
+		vertical-align: middle;
+
+	}
+
+	.goodsdescr-more {
+		color: red;
+		cursor: pointer;
+	}
+
+	.price-block {
+		display: inline-block;
+		float: right;
+		line-height: 1.5;
+		margin: 30px 20px 0 0;
+	}
+
+	.price-old {
+		text-decoration: line-through;
+	}

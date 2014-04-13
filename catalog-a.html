@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type">
+	<title>Каталог</title>
+	<link type="text/css" href="style.css" rel="stylesheet">
+</head>
+<body>
+
+	<div id="header">
+
+		<a class="logo-img" href="index.html"><img src="design/logo.png" title="Мир Подарков" alt="Мир Подарков"></a>
+
+
+
+		<div class="header-top-right">
+
+			<div class="login-form">
+				<input class="login-input login-email" type="email" placeholder="E-mail">
+				<input class="login-input login-password" type="text" placeholder="Пароль"><input class="login-button submit" value="Вход">
+				<div class="login-links"><a href="">Регистрация</a>&nbsp;&nbsp;<a href="">Забыли пароль?</a></div>
+			</div>
+
+			<div class="basket">
+				<a href="">У Вас 0 товаров</a><a href=""><img src="design/basket.png" alt="Корзина" title="Корзина"></a>
+			</div>
+
+		</div>
+
+		<div class="phone">
+
+			<img src="design/life.png" alt="life" title="life"><span class="phone-number">(093) 1234567</span>
+			<img src="design/mts.png" alt="mts" title="mts"><span class="phone-number">(095) 1234567</span>
+			<img src="design/kyivstar.png" alt="kyivstar" title="kyivstar"><span class="phone-number">(067) 1234567</span>
+
+		</div>
+
+		<div class="menu-up"><a href="">Главная</a
+			><a class="menu-up-active" href="">Каталог</a
+			><a href="">Как заказать</a
+			><a href="">Оплата/Доставка</a
+			><a href="">О компании</a
+			><a href="">Контакты</a
+			><a href="">Отзывы</a
+			><a href="">Оптовикам</a>
+		</div>
+
+		<div class="marquee">
+			<marquee>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</marquee>
+		</div>
+	</div>
+
+	<div id="container">
+
+
+
+		<div id="center" class="column">
+
+			<div class="page-view">
+				Вид страницы&nbsp;
+				<img class="change-viewmode" data-viewmode="tile" src="design/view-mode-blocks.png" alt="плитка" title="плитка" />
+				<img class="change-viewmode" data-viewmode="list" src="design/view-mode-list-active.png" alt="список" title="список">
+				<select onchange="changePerpage(this.value)">
+					<option value="12">12</option>
+					<option value="24">24</option>
+					<option value="36">36</option>
+					<option value="48">48</option>
+					<option value="60">60</option>
+					<option value="10000">Все</option>
+
+				</select>
+			</div>
+
+			<div class="page-nav-left">
+				<a href="">Главная</a> / <a href="">Каталог</a> / Необычные часы
+			</div>
+
+
+			<div class="center-content">
+
+
+				<div class="goods-block-horizontal">
+					<h4 class="goods-header">Часы</h4>
+					<a href=""><img src="design/goods-small.png" alt="" title="" /></a>
+					<div class="goodsdescr-block">Стиль: современный</br>
+Материал: пластик</br>
+<a class="goodsdescr-more">Подробнее о товаре</a></div>
+					<div class="price-block"><p>Цена: <span class="price-old">400 грн.</span> 399 грн.</p>
+					<p>Кол-во: <b>−</b> <input type="text" class="goods-quantity" value="1"> <b>+</b> </p>
+					<button class="btn-normal">В корзину</button></div>
+				</div>
+
+								<div class="goods-block-horizontal">
+					<h4 class="goods-header">Часы</h4>
+					<a href=""><img src="design/goods-small.png" alt="" title="" /></a>
+					<div class="goodsdescr-block">Стиль: современный</br>
+Материал: пластик</br>
+<a class="goodsdescr-more">Подробнее о товаре</a></div>
+					<div class="price-block"><p>Цена: <span class="price-old">400 грн.</span> 399 грн.</p>
+					<p>Кол-во: <b>−</b> <input type="text" class="goods-quantity" value="1"> <b>+</b> </p>
+					<button class="btn-normal">В корзину</button></div>
+				</div>
+
+
+
+				
+				<div class="pages">
+					<a href="">Назад</a>
+					<a href="" class="arrow"><img src="design/larr.png" alt="<--" title="Стрелка"></a>
+					<a href="" class="page-active">1</a>
+					<a href="">2</a>
+					<a href="">3</a>
+					<a href="" class="arrow"><img src="design/rarr.png" alt="-->" title="Стрелка"></a>
+					<a href="">Вперед</a>
+				</div>
+
+
+				<div class="menu-center">
+					<a class="menu-center-active" href="">Хиты продаж</a
+					><a href="">Новинки</a
+					><a href="">Акции</a
+					><a href="">Уценка</a>
+
+				</div>
+
+
+
+
+				<div class="goods-block">
+					<h5 class="goods-header">Часы</h5>
+					<a href=""><img src="design/goods-cat.png" alt="" title="" /></a>
+					<p>Цена: 400 грн.</p>
+					<p>Кол-во: <b>−</b> <input type="text" class="goods-quantity" value="1"> <b>+</b> </p>
+					<button class="btn-normal">В корзину</button>
+				</div>
+
+
+				<div class="goods-block">
+					<h5 class="goods-header">Часы</h5>
+					<a href=""><img src="design/goods-cat.png" alt="" title="" /></a>
+					<p>Цена: 400 грн.</p>
+					<p>Кол-во: <b>−</b> <input type="text" class="goods-quantity" value="1"> <b>+</b> </p>
+					<button class="btn-normal">В корзину</button>
+				</div>
+
+
+				<div class="goods-block">
+					<h5 class="goods-header">Часы</h5>
+					<a href=""><img src="design/goods-cat.png" alt="" title="" /></a>
+					<p>Цена: 400 грн.</p>
+					<p>Кол-во: <b>−</b> <input type="text" class="goods-quantity" value="1"> <b>+</b> </p>
+					<button class="btn-normal">В корзину</button>
+				</div>
+
+
+			</div>
+
+		</div>
+
+		<div id="left" class="column">
+
+			<div class="cat-menu">
+				<a class="cat-header">Каталог</a>
+				<div class="cat-links">
+					<a>Lorem.</a>
+					<a>Voluptatum.</a>
+					<a>Molestiae.</a>
+					<a>Laudantium.</a>
+					<a>Consectetur!</a>
+					<a>Dolor.</a>
+					<a>Rem!</a>
+					<a>Inventore.</a>
+					<a>Perspiciatis.</a>
+					<a>Consectetur?</a>
+				</div>
+			</div>
+
+			<div class="filters-menu">
+				<a class="cat-header">Фильтры</a>
+				<div class="filters-links">
+					<a href="" class="filter-name">По цене</a>
+					<p><input type="checkbox" checked> до 100 грн.</p>
+					<p><input type="checkbox"> 100-200 грн.</p>
+					<p><input type="checkbox"> 200-500 грн.</p>
+					<p><input type="checkbox"> 500-1000 грн.</p>
+					<p><input type="checkbox"> больше 1000 грн.</p>
+					<div class="line-dashed"></div>
+					<a href="" class="filter-name">Кому</a>
+					<a href="" class="filter-name">Повод</a>
+
+				</div>
+
+
+			</div>
+
+			<div class="recommend-menu">
+				<a class="cat-header">Отзывы</a>
+				<p class="recommend-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sint, commodi minus ullam voluptatem excepturi illo numquam rerum et facere vel inventore labore ducimus deleniti ut odio cum rem aliquam?</p>
+				<div class="line-dashed"></div>
+				<p class="recommend-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sint, commodi minus ullam voluptatem excepturi illo numquam rerum et facere vel inventore labore ducimus deleniti ut odio cum rem aliquam?</p>
+				<div class="line-dashed"></div>
+				<p class="recommend-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sint, commodi minus ullam voluptatem excepturi illo numquam rerum et facere vel inventore labore ducimus deleniti ut odio cum rem aliquam?</p>
+				<div class="line-dashed"></div>
+				<button class="show-all">Все отзывы</button>
+			</div>
+
+		</div>
+
+		<div id="right" class="column">
+
+			<div class="search-form"><input class="search-input" type="search" placeholder="Часы наручные"><input type="submit" value="Искать" class="search-submit"></div>
+
+			<div class="compare-menu">
+				<a class="cat-header">Сравнение</a>
+				<a href=""><img src="design/goods-small.png" alt="Товар" title="Товар" /></a>
+				<a href=""><img src="design/goods-small.png" alt="Товар" title="Товар" /></a>
+				<button class="show-all">Сравнить все</button>
+			</div>
+
+
+			<div class="compare-menu history-menu">
+				<a class="cat-header">История</a>
+				<a href=""><img src="design/goods-small.png" alt="Товар" title="Товар" /></a>
+				<a href=""><img src="design/goods-small.png" alt="Товар" title="Товар" /></a>
+				<button class="show-all">Просмотреть все</button>
+			</div>
+
+			<div class="articles-menu">
+				<a class="cat-header">Статьи</a>
+				<a href="" class="article-header">Lorem ipsum dolor sit.</a>
+				<p class="article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur, sint, commodi minus ullam voluptatem excepturi illo numquam rerum et facere vel inventore labore ducimus deleniti ut odio cum rem aliquam?</p>
+				<button class="show-all">Все статьи</button>
+			</div>
+
+		</div>
+
+		<div id="footer">
+			<div class="soc-networks"><a href=""><img src="design/vk.png" alt="Vkontakte" title="Vkontakte"></a><a href=""><img src="design/facebook.png" alt="Facebook" title="Facebook"></a><a href=""><img src="design/google.png" alt="Google" title="Google"></a></div>
+			<div class="footer-text">Lorem ipsum dolor sit amet!</div>
+
+
+		</div>
+
+	</div>
+
+	<div class="footer-help">
+		<a href="" class="chat">Онлайн-чат</a>
+		<a href="" class="connect"><img class="help-phone" src="design/call-order.png" alt="" title="">Заказать звонок</a>
+	</div>
+</body>
+</html>
